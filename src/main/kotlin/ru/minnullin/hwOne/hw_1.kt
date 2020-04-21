@@ -1,9 +1,11 @@
+package ru.minnullin.hwOne
+
 fun main() {
     //стоимость продаж
     val amount: Float = 100f
     val total: Float = 1001f
     val exclusive:Boolean=true
-    val fee:Float=CalculeteFee(amount,total,exclusive)
+    val fee:Float= CalculeteFee(amount, total, exclusive)
     print("Сумма за вычетом налога = ${amount-fee}.Ваш налог составляет $fee");
 }
 
